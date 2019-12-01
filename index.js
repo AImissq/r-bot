@@ -22,7 +22,7 @@ const streamOpts = {
 const comments = client.CommentStream(streamOpts);
 
 var sleep = require('system-sleep');
-sleep(900*1000); 
+sleep(120*1000); 
 
 
 comments.on('comment', (comment) => {
