@@ -7,6 +7,8 @@ DO NOT run "npm install" it's already done and will overwrite the pkgs with the 
 
 register your app in reddit developer (settings/apps (register as script type app)
 
+leave the first URL submission box empty on the register app form
+
 in URL redirect on the register app form use http://localhost:80
 
 make a note of the credentials produced (note app ID is top left of form)
