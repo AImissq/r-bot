@@ -21,4 +21,6 @@ edit the index.js file for subreddit/trigger keyword/bot response
 
 Finally run "node index.js" (without quotes) from a console session launched from within the repo
 
-that's it!
+working with node v 10.11.0 on r/chatbots
+
+that's it!node 
