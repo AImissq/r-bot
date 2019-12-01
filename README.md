@@ -9,7 +9,7 @@ register your app in reddit developer (settings/apps (register as script type ap
 
 in URL redirect on the register app form use http://localhost:80
 
-make a note of the credentials produced
+make a note of the credentials produced (note app ID is top left of form)
 
 edit the .env file with these credentials and save
 
