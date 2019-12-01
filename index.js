@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+
 const Snoowrap = require('snoowrap');
 const Snoostorm = require('snoostorm');
 
@@ -14,19 +15,19 @@ const r = new Snoowrap({
 const client = new Snoostorm(r);
 
 const streamOpts = {
-  subreddit: 'testingground4bots',
+  subreddit: 'chatbots',
   results: 25
 };
 
 const comments = client.CommentStream(streamOpts);
 
 var sleep = require('system-sleep');
-sleep(650*1000); 
+sleep(900*1000); 
 
 
 comments.on('comment', (comment) => {
-  if (comment.body.includes('yourtrigger')){
-    comment.reply('botresponse');
+  if (comment.body.includes('chatbot')){
+    comment.reply('try joanna-bot https://joannabot.ejemplo.me');
   }
 });
 
