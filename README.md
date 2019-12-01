@@ -15,8 +15,6 @@ make sure your file explorer has "show hidden" enabled if you can't see the .env
 
 edit the index.js file for subreddit/trigger keyword/bot response 
 
-run "npm install" (without quotes) from within the cloned repo
-
 Finally run "node index.js" (without quotes)
 
 that's it!
