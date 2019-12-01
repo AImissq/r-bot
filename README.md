@@ -3,6 +3,8 @@ simple reddit response bot - nodejs
 
 git clone https://github.com/AImissq/r-bot.git
 
+DO NOT run "npm install" it's already done
+
 register your app in reddit developer (settings/apps (register as script type app)
 
 in URL redirect on the register app form use http://localhost:80
