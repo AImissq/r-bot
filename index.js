@@ -16,13 +16,13 @@ const client = new Snoostorm(r);
 
 const streamOpts = {
   subreddit: 'chatbots',
-  results: 25
+  results: 10
 };
 
 const comments = client.CommentStream(streamOpts);
 
 var sleep = require('system-sleep');
-sleep(650*1000); 
+sleep(700*1000); 
 
 
 comments.on('comment', (comment) => {
