@@ -3,7 +3,7 @@ simple reddit response bot - nodejs
 
 git clone https://github.com/AImissq/r-bot.git
 
-DO NOT run "npm install" it's already done
+DO NOT run "npm install" it's already done and will overwrite the pkgs with the wrong versions
 
 register your app in reddit developer (settings/apps (register as script type app)
 
