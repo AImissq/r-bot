@@ -16,7 +16,7 @@ edit the .env file with these credentials and save
 
 make sure your file explorer has "show hidden" enabled if you can't see the .env file
 
-edit the spp.js file for subreddit/trigger keyword/bot response 
+edit the app.js file for subreddit/trigger keyword/bot response 
 
 Finally run "node app.js" (without quotes) from a console session launched from within the repo
 
