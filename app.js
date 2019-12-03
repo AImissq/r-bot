@@ -1,6 +1,10 @@
+//developer ackroydAI
+
+//for joanna
+
 require('dotenv').config();
 
-
+const systemsleep = require('systemsleep');
 const Snoowrap = require('snoowrap');
 const Snoostorm = require('snoostorm');
 
@@ -15,19 +19,19 @@ const r = new Snoowrap({
 const client = new Snoostorm(r);
 
 const streamOpts = {
-  subreddit: 'chatbots',
-  results: 10
+  subreddit: 'testingground4bots',
+  results: 5
 };
 
 const comments = client.CommentStream(streamOpts);
 
-var sleep = require('system-sleep');
-sleep(700*1000); 
+var sleep = require('systemsleep');
+sleep(630*1); 
 
 
 comments.on('comment', (comment) => {
-  if (comment.body.includes('chatbot')){
-    comment.reply('try joanna-bot https://joannabot.ejemplo.me');
+  if (comment.body.includes('test')){
+    comment.reply('try joanna-bot so i can develop her to try and win the Loebner prize in 2020 - thankyou - be kind https://joannabot.ejemplo.me');
   }
 });
 
