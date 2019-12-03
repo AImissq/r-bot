@@ -3,7 +3,6 @@ simple reddit response bot - nodejs
 
 git clone https://github.com/AImissq/r-bot.git
 
-DO NOT run "npm install" it's already done and will overwrite the pkgs with the wrong versions
 
 register your app in reddit developer (settings/apps (register as script type app)
 
@@ -17,10 +16,10 @@ edit the .env file with these credentials and save
 
 make sure your file explorer has "show hidden" enabled if you can't see the .env file
 
-edit the index.js file for subreddit/trigger keyword/bot response 
+edit the spp.js file for subreddit/trigger keyword/bot response 
 
-Finally run "node index.js" (without quotes) from a console session launched from within the repo
+Finally run "node app.js" (without quotes) from a console session launched from within the repo
 
-working with node v 10.11.0 on r/chatbots. Users implementing new accts may have probs with rate limits - build some Karma!
+working OK with node v 10.11.0 on r/testingground4bots. Users implementing new accts may have probs with rate limits - build some Karma!
 
 that's it!
