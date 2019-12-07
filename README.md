@@ -4,7 +4,7 @@ simple reddit response bot - nodejs
 git clone https://github.com/AImissq/r-bot.git
 
 
-register your app in reddit developer (settings/apps (register as script type app)
+register your app in reddit developer https://www.reddit.com/prefs/apps  (register as script type app)
 
 leave the first URL submission box empty on the register app form
 
